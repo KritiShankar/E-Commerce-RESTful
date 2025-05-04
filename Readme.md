@@ -130,6 +130,6 @@ Then visit [http://localhost:8000/docs](http://localhost:8000/docs)
 ├── Dockerfile
 ├── main.py
 ├── requirements.txt
-└── README.md
+└── Readme.md
 ```
 
