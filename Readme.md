@@ -98,10 +98,10 @@ docker build -t ecommerce-api .
 ### 2. Run the Container
 
 ```bash
-docker run -d -p 8000:80 ecommerce-api
+docker run -d -p 9193:9193 ecommerce-api
 ```
 
-Then visit [http://localhost:8000/docs](http://localhost:8000/docs)
+Then visit [http://localhost:9193/docs](http://localhost:9193/docs)
 
 ---
 
