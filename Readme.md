@@ -63,10 +63,10 @@ pip install -r requirements.txt
 ### 3. Run the Application
 
 ```bash
-python app.py
+python main.py
 ```
 
-Access the interactive API docs at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+Access the interactive API docs at [http://127.0.0.1:9193/docs](http://127.0.0.1:9193/docs)
 
 ---
 
@@ -75,7 +75,7 @@ Access the interactive API docs at [http://127.0.0.1:8000/docs](http://127.0.0.1
 Make sure the app is not already running, then run:
 
 ```bash
-pytest -v
+pytest test/pytest_fastapi.py
 ```
 
 Test cases include:
