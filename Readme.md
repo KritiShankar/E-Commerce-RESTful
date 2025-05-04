@@ -48,8 +48,8 @@ Built with **FastAPI**, it includes robust exception handling, test cases using 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ecommerce-api.git
-cd ecommerce-api
+git clone https://github.com/KritiShankar/E-Commerce-RESTful.git
+cd E-Commerce-RESTful
 ```
 
 ### 2. Create Virtual Environment and Install Dependencies
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ### 3. Run the Application
 
 ```bash
-uvicorn app.main:app --reload
+python app.py
 ```
 
 Access the interactive API docs at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
@@ -109,11 +109,26 @@ Then visit [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ```
 .
-├── app/
-│   └── main.py            # FastAPI application
-├── tests/
-│   └── test_ecommerce_api.py
+├── db/
+│   ├── __init__.py
+│   ├── orders.py
+│   └── productss.py
+├── handlers/
+│   ├── __init__.py
+│   ├── orders.py
+│   └── productss.py
+├── models/
+│   ├── __init__.py
+│   ├── orders_models.py
+│   └── products_models.py    
+├── services/
+│   ├── __init__.py
+│   ├── orders.py
+│   └── products.py
+├── test/
+│   └── pytest_fastapi.py
 ├── Dockerfile
+├── main.py
 ├── requirements.txt
 └── README.md
 ```
