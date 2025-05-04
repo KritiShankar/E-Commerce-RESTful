@@ -2,7 +2,7 @@ from fastapi.testclient import TestClient
 from main import app
 
 print(app)
-client = TestClient(app, base_url="http://localhost:9192")
+client = TestClient(app, base_url="http://localhost:9193")
 
 # Sample product payload for tests
 sample_product = {
